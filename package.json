@@ -13,11 +13,14 @@
   },
   "author": "Matt Sapet <msapet@bigroomstudios.com>",
   "license": "MIT",
-  "bugs" : {
+  "bugs": {
     "url": "https://github.com/yarn-co/printchomp-sdk/issues"
   },
   "homepage": "https://github.com/yarn-co/printchomp-sdk",
   "dependencies": {
     "wreck": "~6.0.0"
+  },
+  "devDependencies": {
+    "lab": "^5.13.0"
   }
 }
