@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/yarn-co/printchomp-sdk/issues"
   },
+  "private": true,
   "homepage": "https://github.com/yarn-co/printchomp-sdk"
 }
