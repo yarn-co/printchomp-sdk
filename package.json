@@ -1,26 +1,31 @@
 {
   "name": "printchomp-sdk",
   "version": "0.0.1",
-  "description": "Printchomp SDK is for interacting with the Printchomp API.",
-  "main": "index.js",
+  "description": "An SDK used for interacting with the Printchomp API",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "wreck": "~6.0.0"
+  },
+  "devDependencies": {
+    "lab": "~5.13.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/yarn-co/printchomp-sdk"
   },
+  "keywords": [
+    "printchomp"
+  ],
   "author": "Matt Sapet <msapet@bigroomstudios.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yarn-co/printchomp-sdk/issues"
   },
-  "homepage": "https://github.com/yarn-co/printchomp-sdk",
-  "dependencies": {
-    "wreck": "~6.0.0"
-  },
-  "devDependencies": {
-    "lab": "^5.13.0"
-  }
+  "homepage": "https://github.com/yarn-co/printchomp-sdk"
 }
