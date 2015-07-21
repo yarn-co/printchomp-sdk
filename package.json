@@ -7,6 +7,7 @@
     "test": "test"
   },
   "dependencies": {
+    "qs": "~4.0.0",
     "wreck": "~6.0.0"
   },
   "devDependencies": {
@@ -20,7 +21,8 @@
     "url": "https://github.com/yarn-co/printchomp-sdk"
   },
   "keywords": [
-    "printchomp"
+    "printchomp",
+    "sdk"
   ],
   "author": "Matt Sapet <msapet@bigroomstudios.com>",
   "license": "MIT",
