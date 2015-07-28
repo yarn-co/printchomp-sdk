@@ -1,14 +1,15 @@
 {
   "name": "printchomp-sdk",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An SDK used for interacting with the Printchomp API",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
+    "wreck": "~6.0.0",
     "qs": "~4.0.0",
-    "wreck": "~6.0.0"
+    "hoek": "~2.14.0"
   },
   "devDependencies": {
     "lab": "~5.13.0"
